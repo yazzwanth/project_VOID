@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  min-height: 100vh;
+  background-image: url('./assets/bg4.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.c-space {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  @media (min-width: 640px) {
+    .c-space {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
